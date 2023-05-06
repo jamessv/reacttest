@@ -7,3 +7,6 @@ expect(button).not.toHaveAttribute('type', 'button')
 
 expect(button).toHaveAttribute('type', expect.stringContaining('sub'))
 expect(button).toHaveAttribute('type', expect.not.stringContaining('but'))
+
+
+expect(button).toHaveAttribute('type', expect.stringContaining('subtract'))
